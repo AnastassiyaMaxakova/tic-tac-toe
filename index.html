@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="title">Tic-Tac-Toe</div>
+        <div class="playerInfo">
+            <div class="playerBox">
+                <div class="player1" id="player1">Player One</div>
+                <div class="choice" id="choiceX">X</div>
+            </div>
+            <button id="swtichBtn" onclick="switchChoice()">Switch</button>
+            <div class="playerBox">
+                <div class="player2" id="player2">Player Two</div>
+                <div class="choice" id="choiceO">O</div>
+            </div>   
+        </div>
+        <div class="gameGrid" id="gameGrid">
+            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">.</div>
+        </div>
+        <dialog class="modal" id="modal" method="modal">
+            <div id="winnerTitle">Player ... won</div>
+            <button id="newGameBtn" onclick="playNewGame()">New Game</button>
+        </dialog>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
