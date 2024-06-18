@@ -9,27 +9,27 @@
 <body>
     <div class="container">
         <div class="title">Tic-Tac-Toe</div>
-        <div class="playerInfo">
+        <div class="playerContainer">
             <div class="playerBox">
-                <div class="player1" id="player1">Player One</div>
+                <div class="player" id="player1">Player One</div>
                 <div class="choice" id="choiceX">X</div>
             </div>
-            <button id="swtichBtn" onclick="switchChoice()">Switch</button>
+            <button id="switchBtn" onclick="switchChoice()">Switch</button>
             <div class="playerBox">
-                <div class="player2" id="player2">Player Two</div>
+                <div class="player" id="player2">Player Two</div>
                 <div class="choice" id="choiceO">O</div>
             </div>   
         </div>
         <div class="gameGrid" id="gameGrid">
-            <div class="gridCell" id="gridCell">.</div>
-            <div class="gridCell" id="gridCell">.</div>
-            <div class="gridCell" id="gridCell">.</div>
-            <div class="gridCell" id="gridCell">.</div>
-            <div class="gridCell" id="gridCell">.</div>
-            <div class="gridCell" id="gridCell">.</div>
-            <div class="gridCell" id="gridCell">.</div>
-            <div class="gridCell" id="gridCell">.</div>
-            <div class="gridCell" id="gridCell">.</div>
+            <div class="gridCell" id="gridCell">X</div>
+            <div class="gridCell" id="gridCell">O</div>
+            <div class="gridCell" id="gridCell">X</div>
+            <div class="gridCell" id="gridCell">X</div>
+            <div class="gridCell" id="gridCell">O</div>
+            <div class="gridCell" id="gridCell">O</div>
+            <div class="gridCell" id="gridCell">X</div>
+            <div class="gridCell" id="gridCell">X</div>
+            <div class="gridCell" id="gridCell">O</div>
         </div>
         <dialog class="modal" id="modal" method="modal">
             <div id="winnerTitle">Player ... won</div>
