@@ -7,7 +7,6 @@
 
 html,body{
     height: 100%;
-    position: relative;
     padding: 30px 200px; 
 }
 
@@ -22,6 +21,7 @@ body{
     border-radius: 10px;
     display: flex; 
     flex-direction: column;
+    position: relative;
 }
 
 .title{
@@ -48,7 +48,9 @@ body{
     padding: 10px;
     margin: 10px;
 }
-
+.player{
+    text-align: center;
+}
 .player,
 .choice{
     font-size: 3rem;
@@ -62,10 +64,11 @@ body{
     font-size: 2rem;
     font-weight: bolder;
     padding: 10px;
+    border-radius: 5px;
 }
 
 #switchBtn:hover{
-    background-color: rgba(83, 80, 80, 0.36);
+    background-color: rgba(221, 255, 0, 0.725);
 
 }
 
@@ -88,3 +91,43 @@ body{
     align-items: center;
     justify-content: center;  
 }
+
+.modal{
+    border: 5px double red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.modal p{
+    font-size: 4rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+
+#newGameBtn{
+    padding:10px;
+    border: 5px double rgb(60, 255, 0);
+    font-size: 2rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+#newGameBtn:hover{
+    background-color: rgba(60, 255, 0, 0.599);
+
+}
+
+.modal:not([open]){
+    display:none;
+  }
+
+
