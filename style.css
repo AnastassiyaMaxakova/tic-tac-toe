@@ -48,6 +48,7 @@ body{
     padding: 10px;
     margin: 10px;
 }
+
 .player{
     text-align: center;
 }
@@ -91,6 +92,7 @@ body{
     align-items: center;
     justify-content: center;  
 }
+
 
 .modal{
     border: 5px double red;
