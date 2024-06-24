@@ -59,19 +59,6 @@ body{
     padding:5px 0;
 }
 
-#switchBtn{
-    border: 5px double rgb(221, 255, 0);
-    cursor: pointer;
-    font-size: 2rem;
-    font-weight: bolder;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#switchBtn:hover{
-    background-color: rgba(221, 255, 0, 0.725);
-
-}
 
 .gameGrid{
     display: grid;
